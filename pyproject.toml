@@ -1,0 +1,11 @@
+[project]
+name = "chainwatch"
+version = "0.1.0"
+description = "A deterministic delegation-aware monitoring experiment."
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.chainwatch]
+protocol = "ChainWatch v0.1"
+scenario_count = 24
+monitor_count = 3
